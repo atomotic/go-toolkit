@@ -1,3 +1,6 @@
 [submodule "test/readium-test-files"]
 	path = test/readium-test-files
 	url = https://github.com/readium/readium-test-files.git 
+[submodule "test/readium-audio-test"]
+	path = test/readium-audio-test
+	url = https://github.com/atomotic/readium-audio-test

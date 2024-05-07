@@ -3,9 +3,14 @@ module github.com/readium/go-toolkit
 go 1.18
 
 require (
+	facette.io/natsort v0.0.0-20181210072756-2cd4dd1e2dcb
 	github.com/agext/regexp v1.3.0
+	github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de
 	github.com/deckarep/golang-set v1.7.1
+	github.com/dhowden/tag v0.0.0-20240417053706-3d75831295e8
+	github.com/gabriel-vasile/mimetype v1.4.3
 	github.com/gorilla/mux v1.7.4
+	github.com/hajimehoshi/go-mp3 v0.3.4
 	github.com/opds-community/libopds2-go v0.0.0-20170628075933-9c163cf60f6e
 	github.com/pdfcpu/pdfcpu v0.3.13
 	github.com/pkg/errors v0.9.1
@@ -18,8 +23,8 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/trimmer-io/go-xmp v1.0.0
 	github.com/urfave/negroni v1.0.0
-	golang.org/x/net v0.7.0
-	golang.org/x/text v0.7.0
+	golang.org/x/net v0.17.0
+	golang.org/x/text v0.13.0
 )
 
 require (
@@ -41,7 +46,7 @@ require (
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/subosito/gotenv v1.2.0 // indirect
 	golang.org/x/image v0.5.0 // indirect
-	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
 	gopkg.in/ini.v1 v1.62.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
